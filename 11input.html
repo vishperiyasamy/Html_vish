@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMS - HTML</title>
+    </head>
+    <body>
+        <form>
+            <label> User Name</label>
+            <input type="text" placeholder='Enter Your Name' required size="70">
+            <br><br>
+            <label> Last Name</label>
+            <input type="hidden" placeholder='Enter Your Name' required size="70">
+            <br><br>
+            <label> Password</label>
+            <input type="password" placeholder='Enter Your Password' required>
+            <br><br>
+            <label> Mail Id</label>
+            <input type="email" >
+            <br><br>
+            <label> Phone no</label>
+            <input type="text" maxlength='12' name="pno" required>
+            <br><br>
+            <label> Qty</label>
+            <input type="number" min='0' max='10' step="7" required>
+            <br><br>
+            <label> Gender</label>
+            <input type="radio" name="a"> Male
+            <input type="radio" name="a"> Female
+            <input type="radio" name="a"> Others
+            <br><br>
+            <label>Image</label>
+            <input type="file" ><br><br>
+            <label>Images</label>
+            <input type="file" multiple><br><br>
+            <label>Select Color</label>
+            <input type="color" ><br><br>
+            <label>Date of Birth</label>
+            <input type="date" min="2018-01-24" max="2025-12-15"><br><br>
+            <label>Time</label>
+            <input type="time" ><br><br>
+            <label>date and Time</label>
+            <input type="datetime-local" ><br><br>
+            <label>Image type</label>
+            <input type="image" src="tj.jpg" width="40" height="40" ><br><br>
+            <label>value attribute</label>
+            <input type="text" value="7777"><br><br>
+            <input type="hidden" value="324234325"><br><br>
+            <label>Month</label>
+            <input type="month" ><br><br>
+            <label>Week</label>
+            <input type="week" ><br><br>
+            <label>Range</label>
+            <input type="range" value="89" min="0" max="78"><br><br>
+            <label>Search</label>
+            <input type="search" disabled><br><br>
+            <label>Phone No</label>
+            <input type="tel" pattern="[0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{2}" autofocus><br><br>
+            <label>URL</label>
+            <input type="url" ><br><br>
+            <input type="checkbox" checked> I agree the terms and conditions<br><br>
+            <input type="submit" value='Register Details'>
+            <input type="reset" value='clear data'>
+            <button type="submit"> submit button</button>
+            <br><br><button type="button"> Save Details</button>
+        </form>
+    </body>
+</html>
